@@ -1,6 +1,6 @@
 def oxford_comma(array)
-  if array.count
-  array*","
+  if array.count == 1
+    array*","
 end
 
 def oxford_comma(array)
