@@ -10,4 +10,3 @@ def oxford_comma(array)
  front_fruits << last_fruit
  end
  end
-end
