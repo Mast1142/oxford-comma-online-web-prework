@@ -1,6 +1,10 @@
 def oxford_comma(array)
   if array.count == 1
     array*","
+  elsif array.count == 2
+    array*" and "
+  else
+    
 end
 
 def oxford_comma(array)
