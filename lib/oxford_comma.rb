@@ -9,5 +9,5 @@ end
 def oxford_comma(array)
  last = array.pop
  last_fruit = ", and " << last
- puts last_fruit
+ last_fruit
  end
