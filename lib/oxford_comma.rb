@@ -8,8 +8,6 @@ end
 
 def oxford_comma(array)
  last = array.pop
- last.join(", and")
  right = array.join(",") 
- together = right << last
- put together
+ puts right << ", and " last
 end
