@@ -12,4 +12,3 @@ def oxford_comma(array)
  together = right << last
  end
  puts together
-end
